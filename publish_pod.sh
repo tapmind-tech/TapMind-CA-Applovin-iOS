@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration - Change these to match your project
-PODSPEC_NAME="TapMindAdapter.podspec"
+PODSPEC_NAME="TapMindALAdapter.podspec"
 VERSION=$(grep -E 's.version\s+=' "$PODSPEC_NAME" | cut -d '"' -f 2 | cut -d "'" -f 2)
 
 echo "🚀 Starting publication process for $PODSPEC_NAME version $VERSION..."
