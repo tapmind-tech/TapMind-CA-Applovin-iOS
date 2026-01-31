@@ -17,7 +17,8 @@ let package = Package(
         .package(
             url: "https://github.com/kishantuvoc/TapMindSDK.git",
             from: "1.1.0"
-        )
+        ),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMajor(from: "10.3.6"))
     ],
     targets: [
         // 1. The actual binary framework
@@ -30,7 +31,8 @@ let package = Package(
             name: "TapMindALAdapterTarget",
             dependencies: [
                 .target(name: "TapMindALAdapterBinary"),
-                .product(name: "TapMindSDK", package: "TapMindSDK")
+                .product(name: "TapMindSDK", package: "TapMindSDK"),
+                .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package")
             ],
             path: "Sources/TapMindALAdapter" // Points to your physical folder
         )
