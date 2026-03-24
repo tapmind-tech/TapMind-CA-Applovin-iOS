@@ -18,7 +18,8 @@ fi
 # 2. Git Tagging
 echo "🏷️  Tagging version $VERSION in git..."
 git add .
-git commit -m "Release version $VERSION"
+#git commit -m "Release version $VERSION"
+git commit -m "Update adapter with standard class naming and minor enhancements"
 git tag "$VERSION"
 git push origin main
 git push origin "$VERSION"
