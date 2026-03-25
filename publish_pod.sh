@@ -19,7 +19,7 @@ fi
 echo "🏷️  Tagging version $VERSION in git..."
 git add .
 #git commit -m "Release version $VERSION"
-git commit -m "Update adapter with standard class naming and minor enhancements"
+git commit -m "Added case-insensitive key handling for JSON parsing to ensure consistent and reliable data access regardless of key casing"
 git tag "$VERSION"
 git push origin main
 git push origin "$VERSION"
