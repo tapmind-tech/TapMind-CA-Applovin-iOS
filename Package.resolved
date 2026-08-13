@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kishantuvoc/TapMindSDK.git",
       "state" : {
-        "revision" : "1d04b26ea81e0a05d9454823afd44db6961a77db",
-        "version" : "1.2.8"
+        "revision" : "fdc0d7f1e1467333696a803a1cf177c1eceacb02",
+        "version" : "3.0.2"
       }
     }
   ],
