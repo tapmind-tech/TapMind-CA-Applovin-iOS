@@ -16,7 +16,7 @@ let package = Package(
         // Google Mobile Ads official Swift Package
         .package(
             url: "https://github.com/kishantuvoc/TapMindSDK.git",
-            from: "3.0.2"
+            from: "3.0.3"
         ),
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", .upToNextMajor(from: "10.3.6"))
     ],
